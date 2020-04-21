@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <!-- Setter设置获取DataGrid标签添加样式-->
+    <Style TargetType="DataGrid">
+        <!--添加属性的标签；Property表示里面写什么属性类型；-->
+        <Setter Property="AutoGenerateColumns" Value="False"></Setter>
+        <!--自动编辑列关闭-->
+        <!--拖拽列 改变大小关闭-->
+        <Setter Property="CanUserResizeColumns" Value="False"></Setter>
+        <!--CanUserSortColumns="False"列不能拖拽大小-->
+        <Setter Property="IsReadOnly" Value="True"></Setter>
+        <!--IsReadOnly="True"表示不能添加内容(只读)形式-->
+        <Setter Property="RowHeaderWidth" Value="0"></Setter>
+        <!--RowHeaderWidth="0"宽不能拖拽大小-->
+        <Setter Property="CanUserSortColumns" Value="False"></Setter>
+        <!--CanUserSortColumns="False"列不能拖拽大小-->
+        <Setter Property="SelectionMode" Value="Single"></Setter>
+        <!--选中时只能选中一个-->
+    </Style>
+    <!--设置列标题里面的内容-->
+    <Style TargetType="DataGridColumnHeader">
+        <Setter Property="Height" Value="30"></Setter>
+        <!--高度-->
+        <Setter Property="FontWeight" Value="Bold"></Setter>
+        <!--字体-->
+        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        <!--居中-->
+        <Setter Property="FontSize" Value="16"></Setter>
+        <!--字体大小-->
+    </Style>
+
+    <!--设置单元格的行-->
+    <Style TargetType="DataGridRow">
+        <Setter Property="Height" Value="28"></Setter>
+        <!--Triggers触发器，用来写鼠标点击上去的显示的样式-->
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="Cyan"></Setter>
+            </Trigger>
+            <!--IsMouseOver这个也表示触发器的一种属性，表示每鼠标离开时触发-->
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Purple"></Setter>
+                <Setter Property="Foreground" Value="White"></Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--设置每个单元格-->
+    <Style TargetType="DataGridCell">
+        <!--指向原来的模版-->
+        <Setter Property="Template">
+            <Setter.Value>
+                <!--控件的模版，设置的每一个单元格-->
+                <ControlTemplate TargetType="DataGridCell">
+                    <!--统一里面的内容用TextBlock-->
+                    <TextBlock TextAlignment="Center" VerticalAlignment="Center">
+                        <ContentPresenter></ContentPresenter>
+                    </TextBlock>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <!--Triggers触发器：当鼠标放上去改变样式；IsSelected是触发器出发的一个属性，为True表示可以触发了，鼠标移入时触发-->
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <!--改变字体颜色-->
+                <Setter Property="Foreground" Value="Blue"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="BorderThickness" Value="0"></Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

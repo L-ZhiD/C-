@@ -1,0 +1,146 @@
+﻿<UserControl x:Class="ADO.NET.View.ScoreInquiry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADO.NET.View"
+        mc:Ignorable="d"
+        d:DesignHeight="450" d:DesignWidth="800" >
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/common/DataGridStyle.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Background="#85CEEE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1" Opacity="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="210"></ColumnDefinition>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <DockPanel Height="28" Width="210">
+                <Label Content="选择班级:" FontSize="15"></Label>
+                <ComboBox x:Name="smclassCmb" Background="#E3E3E3" VerticalContentAlignment="Center"></ComboBox>
+            </DockPanel>
+            <Button x:Name="btnSelectByCId" Click="btnSelectByCId_Click" Grid.Column="1" Width="82" Height="28" Background="#E3E3E3">
+                <DockPanel>
+                    <Image Source="/img/tjcx.ico" Height="15"></Image>
+                    <Label Content="提交查询"></Label>
+                </DockPanel>
+            </Button>
+            <Button x:Name="btnGroupBySid" Click="btnGroupBySid_Click" Tag="True" Grid.Column="2" Width="82" Height="28" Background="#E3E3E3">
+                <DockPanel>
+                    <Image x:Name="groupBySidImg" Source="/img/down.ico" Height="15"></Image>
+                    <Label Content="学号排列"></Label>
+                </DockPanel>
+            </Button>
+            <Button x:Name="btnGroupBySName" Click="btnGroupBySName_Click" Tag="True"  Grid.Column="3" Height="28" Background="#E3E3E3" Grid.ColumnSpan="2" Margin="3.8,6,63,6">
+                <DockPanel>
+                    <Image x:Name="groupBySNameImg" Source="/img/sheng.ico" Height="15"></Image>
+                    <Label Content="姓名排序"></Label>
+                </DockPanel>
+            </Button>
+            <Button  Tag="True" Grid.Column="4" Width="82" Height="28" Background="#E3E3E3">
+                <DockPanel>
+                    <Image  Source="/img/SYY.ico" Height="15"></Image>
+                    <Label Content="上一页" Width="67"></Label>
+                </DockPanel>
+            </Button>
+
+            <DockPanel Grid.Column="5">
+                <Label Content="0" FontSize="18" Margin="0,-5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Label>
+            </DockPanel>
+
+            <Button  Tag="True" Grid.Column="6" Width="82" Height="28" Background="#E3E3E3">
+                <DockPanel>
+                    <Image  Source="/img/XYY.ico" Height="15"></Image>
+                    <Label Content="下一页" Width="65"></Label>
+                </DockPanel>
+            </Button>
+
+            <Button x:Name="btnClose" Click="btnClose_Click" Grid.Column="7" Width="82" Height="28" Background="#E3E3E3">
+                <DockPanel>
+                    <Image Source="/img/guan.ico" Height="15"></Image>
+                    <Label Content="关闭窗口"></Label>
+                </DockPanel>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="111*"/>
+                <ColumnDefinition Width="79*"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="学员信息管理" FontSize="15" Grid.ColumnSpan="2">
+                <Grid>
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="340"></ColumnDefinition>
+                        <ColumnDefinition Width="98"></ColumnDefinition>
+                        <ColumnDefinition Width="108"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <DockPanel Height="24" Width="320">
+                        <Label Content="输入学号/姓名:" FontSize="12"></Label>
+                        <TextBox x:Name="mstxtIdorName" Width="140" Padding="0,0,0,0"></TextBox>
+                        <Button x:Name="btnSelectBySIN" Click="btnSelectBySIN_Click" Width="82" Height="24" FontSize="12" Background="#E3E3E3">
+                            <DockPanel>
+                                <Image Source="/img/tjcx.ico" Height="15"></Image>
+                                <Label Content="提交查询" Padding="0,0,0,0"></Label>
+                            </DockPanel>
+                        </Button>
+                    </DockPanel>
+                    <Button  x:Name="btnDeleteStu" Click="btnDeleteStu_Click" Grid.Column="1" Width="90" Height="24" FontSize="12" Background="#E3E3E3">
+                        <DockPanel>
+                            <Image Source="/img/daochu.ico" Height="15"></Image>
+                            <Label Content="修改成绩" Padding="0,0,0,0"></Label>
+                        </DockPanel>
+                    </Button>
+                    <Button x:Name="BtnPrint" Grid.Column="2" Width="100" Height="24" FontSize="12" Background="#E3E3E3">
+                        <DockPanel>
+                            <Image Source="/img/print.ico" Height="15"></Image>
+                            <Label Content="打印学员信息" Padding="0,0,0,0"></Label>
+                        </DockPanel>
+                    </Button>
+                    <Button x:Name="weijige" Click="weijige_Click" Grid.Column="3" Width="110" Height="24" FontSize="12" Background="#E3E3E3">
+                        <DockPanel>
+                            <Image Source="/img/不及格.ico" Height="15"></Image>
+                            <Label Content="查看未及格成员" Padding="0,0,0,0" Height="16" Width="101"></Label>
+                        </DockPanel>
+                    </Button>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Row="5" Grid.Column="1">
+            <DataGrid x:Name="smDgStudentLsit">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="学号" Width="120" Binding="{Binding StudentID}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="姓名" Width="120" Binding="{Binding StudentName}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="班级" Width="120" Binding="{Binding ClassName}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="C#成绩" Width="120" Binding="{Binding CSharp}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="SQL成绩" Width="120" Binding="{Binding SQLServerDB}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="录入时间" Width="120" Binding="{Binding UpdateTime}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

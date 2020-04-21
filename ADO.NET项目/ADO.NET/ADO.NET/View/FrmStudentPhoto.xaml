@@ -1,0 +1,52 @@
+﻿<Window x:Class="ADO.NET.View.FrmStudentPhoto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:wpfMedia="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+        xmlns:local="clr-namespace:ADO.NET.View"
+        mc:Ignorable="d"
+        Title="拍照" Height="600" Width="500"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" >
+    <!--用于摄像的命名空间，方便下面摄像标签使用
+    xmlns:wpfMedia="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"-->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/img/摄像头背景.jpg"></ImageBrush>
+        </Grid.Background>
+        <!--规划地方放对应控件-->
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Width="300" Height="400" HorizontalAlignment="Center" Grid.ColumnSpan="3" Background="White">
+            <!--放摄像头的地方-->
+            <wpfMedia:VideoCaptureElement Name="picture" Width="300" Height="400" Stretch="Fill" Visibility="Visible"></wpfMedia:VideoCaptureElement>
+            <!--放拍好图片的地方-->
+            <Image x:Name="pictrueYulan" Visibility="Hidden"></Image>
+        </Grid>
+        <Button x:Name="btnClickPhoto" Click="btnClickPhoto_Click" Grid.Column="1" Grid.Row="1" Width="80" Height="30" Margin="42,0,43,50" >
+            <DockPanel>
+                <Image Source="/img/5.jpg"></Image>
+                <Label Padding="0" Content="拍照" VerticalContentAlignment="Center"></Label>
+            </DockPanel>
+        </Button>
+        <Button x:Name="btnCancel" Click="btnCancel_Click" Grid.Row="1" Width="80" Height="30" Margin="85,0,0,50" >
+            <DockPanel>
+                <Image Source="/img/Cancel.ico" Height="20"></Image>
+                <Label Padding="0" Content="重拍" VerticalContentAlignment="Center"></Label>
+            </DockPanel>
+        </Button>
+        <Button x:Name="btnSavePic" Click="btnSavePic_Click" Grid.Row="1" Width="80" Height="30" Margin="0,0,84,50" Grid.Column="2" >
+            <DockPanel>
+                <Image Source="/img/save.bmp" Height="20"></Image>
+                <Label Padding="0" Content="保存" VerticalContentAlignment="Center"></Label>
+            </DockPanel>
+        </Button>
+
+    </Grid>
+</Window>

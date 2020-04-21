@@ -1,0 +1,5 @@
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerModel\bin\Debug\StudentManagerModel.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerModel\bin\Debug\StudentManagerModel.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerModel\obj\Debug\StudentManagerModel.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerModel\obj\Debug\StudentManagerModel.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerModel\obj\Debug\StudentManagerModel.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerBLL.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerBLL.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerDAL.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerModel.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerDAL.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\StudentManagerModel.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\obj\Debug\StudentManagerBLL.csprojAssemblyReference.cache
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\obj\Debug\StudentManagerBLL.csproj.CopyComplete
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\obj\Debug\StudentManagerBLL.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\obj\Debug\StudentManagerBLL.pdb
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\Common.dll
+D:\SQL\ADO.NET项目\ADO.NET\StudentManagerBLL\bin\Debug\Common.pdb

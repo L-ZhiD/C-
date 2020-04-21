@@ -1,0 +1,62 @@
+﻿<Window x:Class="ADO.NET.View.FrmAddatInfor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADO.NET.View"
+        mc:Ignorable="d"
+        Title="考勤打卡"  Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/img/查询背景.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="8"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="1" Grid.Column="1" Opacity="0.85" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="30"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <GroupBox Grid.Row="1" Grid.Column="1" FontSize="20" Header="考勤打卡" BorderBrush="Pink" BorderThickness="3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="80"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Content="考勤号:" FontSize="28"  VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+                    <TextBox Name="textCard"  Grid.Row="0" Grid.Column="1" Width="120" Height="30" BorderBrush="Violet" BorderThickness="2" HorizontalAlignment="Left" ></TextBox>
+                    <Button x:Name="btnCancle" Click="btnCancle_Click"   Grid.Row="1" Grid.Column="0"  Width="150" Height="50">
+                        <DockPanel>
+                            <Image Source="/img/cacle.ico" Height="20"></Image>
+                            <Label Content="取消打卡"></Label>
+                        </DockPanel>
+                    </Button>
+                    <Button  x:Name="btnAffirm"  Click="btnAffirm_Click" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Width="150" Height="50">
+                        <DockPanel>
+                            <Image  Source="/img/sure.ico" Height="20" ></Image>
+                            <Label Content="确认打卡"></Label>
+                        </DockPanel>
+                    </Button>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>

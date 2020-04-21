@@ -1,0 +1,5 @@
+D:\SQL\ADO.NET项目\ADO.NET\Common\bin\Debug\Common.dll
+D:\SQL\ADO.NET项目\ADO.NET\Common\bin\Debug\Common.pdb
+D:\SQL\ADO.NET项目\ADO.NET\Common\obj\Debug\Common.dll
+D:\SQL\ADO.NET项目\ADO.NET\Common\obj\Debug\Common.pdb
+D:\SQL\ADO.NET项目\ADO.NET\Common\obj\Debug\Common.csprojAssemblyReference.cache
