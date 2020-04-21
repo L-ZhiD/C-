@@ -1,0 +1,9 @@
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\bin\Debug\IBLL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\bin\Debug\IBLL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\obj\Debug\IBLL.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\obj\Debug\IBLL.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\obj\Debug\IBLL.csproj.CopyComplete
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\obj\Debug\IBLL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IBLL\obj\Debug\IBLL.pdb

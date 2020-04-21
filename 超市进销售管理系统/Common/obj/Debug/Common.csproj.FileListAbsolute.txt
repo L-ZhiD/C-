@@ -1,0 +1,21 @@
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\bin\Debug\Common.dll
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\bin\Debug\Common.pdb
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\obj\Debug\Common.textbox.resources
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\obj\Debug\Common.csproj.GenerateResource.cache
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\obj\Debug\Common.dll
+D:\D-文档\c#(C Sharp)\vs-text\超市进销售管理系统\Common\obj\Debug\Common.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\Common.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\Common.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.textbox.resources
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.csproj.GenerateResource.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\log4net.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\log4net.xml
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.csproj.CopyComplete
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\Common\obj\Debug\Common.PageNavigator.resources

@@ -1,0 +1,6 @@
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\obj\Debug\Moder.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\obj\Debug\Moder.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\obj\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\Moder\obj\Debug\Moder.pdb

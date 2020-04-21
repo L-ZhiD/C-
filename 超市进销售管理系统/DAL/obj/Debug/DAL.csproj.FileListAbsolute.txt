@@ -1,0 +1,11 @@
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\DAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\DAL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\IDAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\IDAL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\obj\Debug\DAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\DAL\obj\Debug\DAL.pdb

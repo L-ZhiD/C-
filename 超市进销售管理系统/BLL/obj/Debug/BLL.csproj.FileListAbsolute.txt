@@ -1,0 +1,15 @@
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\BLL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\BLL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\DAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\IBLL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\IDAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\DAL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\IBLL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\IDAL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\obj\Debug\BLL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\BLL\obj\Debug\BLL.pdb

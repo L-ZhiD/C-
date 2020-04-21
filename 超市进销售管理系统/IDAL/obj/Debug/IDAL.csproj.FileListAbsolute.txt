@@ -1,0 +1,9 @@
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\bin\Debug\IDAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\bin\Debug\IDAL.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\bin\Debug\Moder.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\bin\Debug\Moder.pdb
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\obj\Debug\IDAL.csprojAssemblyReference.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\obj\Debug\IDAL.dll
+D:\baby\0406超市进销管项目\超市进销售管理系统\IDAL\obj\Debug\IDAL.pdb
